@@ -1,14 +1,31 @@
 {
   "name": "webthreads",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Provides a WebWorker-threads-like implementation using standard Node child processes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd test && node advanced"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "keywords": [
+    "threads",
+    "webworker",
+    "webworker-threads",
+    "fork"
+  ],
+  "author": "Julian Thatcher",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/andrakis/node-webthreads/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrakis/node-webthreads.git"
+  },
+  "dependencies": {},
+  "optionally-install-this": {
     "browserify": "^13.0.1"
+  },
+  "vim": {
+    "vim": "# vim: set et ts=4 sw=4 #"
   }
 }

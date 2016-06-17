@@ -2,8 +2,9 @@ function handler(m) {
 	// Do work  (in this case just up-case the string
 	m = m.toUpperCase();
 
-	// Pass results back to parent process
-	global.process.send(m.toUpperCase(m));
+	// Pass results back to parent process after a delay
+	setTimeout(postMessage, 1000, m.toUpperCase(m));
 };
 
-global.process.on('message', handler);
+//process.on('message', handler);
+onmessage = handler;

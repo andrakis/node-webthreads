@@ -13,4 +13,4 @@ compile () {
 	browserify $files -o $out
 }
 
-compile runtime/simple_worker.js simple_worker.js
+compile runtime/simple_worker.js worker_shim.js simple_worker.js

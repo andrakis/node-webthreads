@@ -1,4 +1,0 @@
-process.on('message', function(m) {
-	console.log("Child got message: ", m);
-	process.send(m);
-});
