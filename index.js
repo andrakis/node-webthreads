@@ -76,3 +76,6 @@ exports.spawn = function(path, shim) {
 
 	return new WebThread(path, shim);
 };
+exports.spawn_shim = function(path) {
+	return exports.spawn(path, __dirname + '/lib/worker_shim');
+};

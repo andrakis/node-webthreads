@@ -1,6 +1,6 @@
 var webthreads = require('../.');
 
-var child = webthreads.spawn(__dirname + '/simple_worker', __dirname + '/../lib/worker_shim');
+var child = webthreads.spawn_shim(__dirname + '/simple_worker');
 child.onmessage = function(m) {
 	// Receive results from child process
 	console.log('received: ' + m);
