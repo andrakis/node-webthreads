@@ -1,6 +1,6 @@
 {
   "name": "webthreads",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Provides a WebWorker-threads-like implementation using standard Node child processes",
   "main": "index.js",
   "scripts": {
