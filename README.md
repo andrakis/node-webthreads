@@ -2,7 +2,8 @@ WebThreads
 ==========
 
 WebThreads is a module for Node.js that provides a
-WebWorker-threads-like using the standard node fork capabilities.
+WebWorker-threads-like interface using the standard node fork
+capabilities.
 
 Worker threads have the `send` and `postMessage` functions available,
 as well as the ability to assign an `onmessage` handler.
