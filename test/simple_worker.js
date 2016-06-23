@@ -1,5 +1,6 @@
 function handler(m) {
 	// Do work  (in this case just up-case the string
+	m = m.data;
 	m = m.toUpperCase();
 
 	// Pass results back to parent process after a delay
